@@ -11,4 +11,4 @@
 
 ### Game Mechanincs are similar to MTG
 
-* 🕹 <a href="https://lovechase.github.io/React-TCG/" target="_blank">Play the Demo and Enjoy! </a>
+* 🕹 Coming Soon!
