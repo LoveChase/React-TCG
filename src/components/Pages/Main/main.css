@@ -1,0 +1,147 @@
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+}
+
+.left {
+  background-color: green;
+  -webkit-transform: skewx(-45deg);
+  transform: skewx(-45deg);
+  width: 100%;
+  position: absolute;
+  left: -25%;
+  cursor: url(http://cur.cursors-4u.net/cursors/cur-11/cur1056.ani), url(http://cur.cursors-4u.net/cursors/cur-11/cur1056.png), auto !important;
+}
+
+.right {
+  background-color: red;
+  -webkit-transform: skewx(-45deg);
+  transform: skewx(-45deg);
+  width: 100%;
+  position: absolute;
+  right: -50%;
+  cursor: url(http://cur.cursors-4u.net/cursors/cur-3/cur283.ani), url(http://cur.cursors-4u.net/cursors/cur-3/cur283.png), auto !important;
+}
+
+.inside-left {
+  -webkit-transform: skewx(45deg);
+  transform: skewx(45deg);
+  width: 100%;
+  left: -0%;
+  background: url(https://c2.staticflickr.com/2/1756/42784770602_0495393364_o.jpg);
+  background-size: cover;
+  height: 100%;
+  position: absolute;
+  opacity: .5;
+  transition: 2s;
+}
+
+.inside-right {
+  -webkit-transform: skewx(-45deg);
+  transform: skewx(45deg);
+  width: 100%;
+  background: url(https://img3.goodfon.com/wallpaper/big/c/16/peter-mohrbacher-magic-the.jpg);
+  background-size: cover;
+  height: 100%;
+  position: absolute;
+  left: -25%;
+  opacity: .5;
+  transition: 2s;
+}
+
+.inside-right:hover {
+  opacity: 1;
+  transition: 2s;
+}
+
+.inside-left:hover {
+  opacity: 1;
+  transition: 2s;
+}
+
+.choose{
+  position: absolute;
+  z-index: 10;
+  left: 35.8%;
+  bottom: 50%;
+  font-size: 45px;
+  color: #796f51;
+  -webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(transparent, transparent), url(https://t3.ftcdn.net/jpg/02/23/87/22/500_F_223872297_s27TnIrFElQOQIVfzcTK5gpixWKJMTv5.jpg) repeat;
+  background: -o-linear-gradient(transparent, transparent);
+  -webkit-background-clip: text;
+  font-weight: 800;
+  background-size: 55%;
+  box-shadow: 0.1em 0.2em 13px 13px #171314;
+  border-radius: 50%;
+  padding: 20px !important;
+}
+
+.end-game{
+  position: absolute;
+  z-index: 10;
+  left:28.8%;
+  bottom:15%;
+  font-size: 95px;
+  color: #796f51;
+  -webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(transparent, transparent), url(https://vignette.wikia.nocookie.net/narutofanon-central/images/c/cd/Yellow_Lightning.jpeg/revision/latest?cb=20130602195100) repeat;
+  background: -o-linear-gradient(transparent, transparent);
+  -webkit-background-clip: text;
+  font-weight: 800;
+  background-size: 55%;
+  box-shadow: 0.1em 0.2em 13px 13px #171314;
+  border-radius: 50%;
+  padding: 20px !important;
+}
+
+.end-game-contianer{
+  display: flex;
+  justify-content: center;
+}
+
+.centered-left {
+  position: absolute;
+  top: 10%;
+  left: 45%;
+  text-align: center;
+  -webkit-transform: skewx(45deg);
+  transform: skewx(45deg);
+  background-size: contain;
+  border: 15px solid black;
+  border-radius: 75%;
+}
+
+.end-button{
+  z-index: 10;
+  bottom:0%;
+  font-size: 35px;
+  color: #796f51;
+  background: url(https://www.setaswall.com/wp-content/uploads/2018/02/Green-and-Red-Wallpaper-01-1250x781.png);
+  background-size: 100%;
+  font-weight: 800;
+  padding: 10px !important;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+
+}
+
+.centered-right {
+  position: absolute;
+  top: 60%;
+  left: 35%;
+  text-align: center;
+  -webkit-transform: skewx(45deg);
+  transform: skewx(45deg);
+}
+
+.centered-left img, .centered-right img {
+  width: 350px;
+  border-radius: 50%;
+}
+

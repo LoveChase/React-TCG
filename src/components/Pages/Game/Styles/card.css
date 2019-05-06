@@ -1,0 +1,253 @@
+.card-container {
+    border: 1px solid black;
+    width: 500px;
+    height: 700px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    box-shadow: -8px 9px 16px -3px grey;
+    background: #171314;
+    margin: 0px;
+    zoom: .27;
+    transition: 1s;
+    display: inline-block;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    margin: 0px 20px;
+}
+
+.deck .card-container{
+    position: absolute;
+    transform: rotateY(180deg);
+    bottom: 0px;
+    bottom: 13%;
+}
+
+.card-container:hover {
+    transition: 1s;
+    transform: scale(1.5);
+    margin-left: 200px;
+    margin-right: 200px;
+    z-index: 100;
+    }
+
+.card-field-hover:hover {
+    z-index: 100;
+    }
+
+.card-background {
+    height: 600px;
+    margin: 20px 20px 0 20px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 8%;
+    border-bottom-right-radius: 8%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    background-color: #bbb;
+    z-index: 0;
+}
+
+.card-container:hover{
+    box-shadow: 0em 0em 33px 33px #171314;
+}
+
+
+
+
+/*
+    -------------------------
+    -------------------------
+            BORDERS
+    -------------------------
+    -------------------------
+*/
+.frame-header,
+.frame-type-line {
+    border-bottom: 4px solid #a9a9a9;
+    border-left: 2px solid #a9a9a9;
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+
+.frame-header,
+.frame-art,
+.frame-type-line {
+    box-shadow: 
+        0 0 0 2px #171314,
+        0 0 0 5px #26714A,
+        -3px 3px 2px 5px #171314;
+
+    margin-bottom: 7px;
+}
+
+.frame-text-box {
+    box-shadow: 
+        0 0 0 5px #26714A,
+        -3px 3px 2px 5px #171314;
+}
+
+/*
+    ----------------------
+    ----------------------
+            OVERFLOW
+    ----------------------
+    ----------------------
+*/
+.frame-header,
+.frame-type-line,
+.frame-text-box {
+    overflow: hidden;
+}
+
+
+/*
+  ----------------------------------------
+  ----------------------------------------
+            CARD FRAME
+  ----------------------------------------
+  ----------------------------------------
+*/
+.card-frame {
+    z-index: 1;
+    position: relative;
+    height: 108%;
+    max-width: 97%;
+    left: 1%;
+    top: 0.5%;
+    left: 1.2%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.frame-header,
+.frame-type-line {
+    background: 
+        linear-gradient( 0deg, rgba(201, 216, 201, .3), rgba(201, 216, 209, .3) ), 
+        url(../../../../img/tile_bg_2.jpg);     
+    display: flex;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 8px 0;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 18px/40px;
+}
+/*
+  Tue 27/3
+*/
+.name,
+.type {
+    font-size: 1.3em;
+    margin-left: 10px;
+    align-self: center;
+    font-weight: 600;
+}
+
+#mana-icon {
+    box-sizing: border-box;
+    margin-right: 5px;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border: 5px solid #171314;
+    font-size: 1.8em;
+    align-self: center;
+    font-weight: 600;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 1.5;
+    box-shadow: 0 0 5px 9px #171314;
+}
+
+.frame-art {
+    height: 50%;
+    margin: 0 10px; 
+    width: 95%
+}
+
+#set-icon {
+    height: 9%;
+    width: 6%;
+    overflow: hidden;
+    margin-right: 10px;
+    align-self: center;
+} 
+.frame-type-line {
+    margin-top: 0;
+} 
+
+.frame-text-box {
+    margin: 0 10px;
+    background: #d3ded6;
+    background-image: url(../../../../img/tile_bg_2.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;    
+    padding: 50px 6px;
+    font-size: 1em;
+}
+
+.flavour-text {
+    font-style: italic;
+    padding: 10px 0;
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+.ftb-inner-margin {
+    margin: 5px 1px;
+}
+
+.stats{
+    width: 80px;
+    height: 50px;
+    right: 10px;
+    position: absolute;
+    bottom: 0px;
+    border: 5px solid #171314;
+    font-size: 1.8em;
+    align-self: center;
+    font-weight: 600;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0.1em 0.2em 5px 15px #171314;
+}
+
+.hand:hover{
+    bottom: 0px !important;
+    transition: 1s
+}
+
+.frame-text-box{
+    height: 212px;
+}
+
+.actions-closed{
+    display: unset;
+}
+
+.actions-open{
+    display: none;
+}
+
+.half-btn{
+    width:50%;
+}
+
+.active-card{
+    box-shadow: rgb(23, 19, 20) 0px 0px 0px 2px, rgb(206, 200, 28) 0px 0px 11px 20px, rgb(23, 19, 20) -3px 3px 2px 5px;
+}
+
+.active-enemy-card{
+    box-shadow: rgb(23, 19, 20) 0px 0px 0px 2px, rgb(206, 200, 28) 0px 0px 11px 20px, rgb(23, 19, 20) -3px 3px 2px 5px;
+}

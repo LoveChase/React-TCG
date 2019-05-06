@@ -1,0 +1,47 @@
+.back {
+    overflow: hidden;
+    z-index: -1;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    background: url(,,/../../img/cardBack.jpg);
+    border: 1px solid black;
+    width: 500px;
+    height: 700px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    box-shadow: -8px 9px 16px -3px grey;
+    background: #171314;
+    margin: 0px;
+    -webkit-transition: 1s;
+    transition: 1s;
+    display: inline-block;
+    background: url(../../../../img/cardBack.jpg);
+    position: absolute;
+    top: 0px;
+    border-radius: 20px;
+}
+.back:before {
+    content: "";
+/*     position: absolute; */
+    z-index: -1;
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+.front, .back {
+    transition: all 0.5s linear;
+}
+
+.flipped, .hovercard:hover {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+.flipped .front, .hovercard:hover .front {
+    box-shadow: 0 0 0 #aaa;
+}
+.flipped .back, .hovercard:hover .back {
+    box-shadow: 5px 5px 5px #aaa;
+}
+
