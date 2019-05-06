@@ -1,6 +1,6 @@
 # React TCG
 
-![RPG app](https://i.ibb.co/5M1dHhx/RPG.png "RPG App")
+![TCG app](https://i.ibb.co/NKSR0v8/React-TCG.png  "TCg App")
 
 ### This project was built using the following
 
@@ -11,4 +11,4 @@
 
 ### Game Mechanincs are similar to MTG
 
-* 🕹 Play the Demo and Enjoy!<a href="https://i.ibb.co/NKSR0v8/React-TCG.png" target="_blank">TCG</a>
+* 🕹 Play the Demo and Enjoy!<a href="https://lovechase.github.io/React-TCG/" target="_blank">TCG</a>
