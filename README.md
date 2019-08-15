@@ -11,4 +11,4 @@
 
 ### Game Mechanincs are similar to MTG
 
-* 🕹 Coming Soon!
+* 🕹 <a href="https://react-tcg.herokuapp.com/play" target="_blank">Play Now!</a>
