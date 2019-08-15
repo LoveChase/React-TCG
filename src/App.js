@@ -119,7 +119,7 @@ avatarCursor = () =>{
         <div className="App">
           <div className={this.avatarCursor()}>
             <Header />
-            <Route exact path="/main" render={props => (
+            <Route exact path="/" render={props => (
               <React.Fragment >
               <div className="transition main" style={this.mainView()}>
               <Main avatars={this.state.avatars} selectAvatar={this.selectAvatar}/>
