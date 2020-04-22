@@ -8,6 +8,7 @@ import axios from 'axios';
 import './App.css';
 import backgroundAudio from "./audio/Background.mp3"
 import redAudio from "./audio/FireAvatar.mp3"
+import allCards from "./components/Pages/Game/json/cards.json"
 require('jquery-ui-bundle');
 
 class App extends Component {
@@ -27,20 +28,24 @@ class App extends Component {
 
   //Get Cards
   componentDidMount() {
-    let audio = new Audio(backgroundAudio)
-    audio.volume = 0.2
-    audio.play()
-    axios.get(`https://api.myjson.com/bins/ftfz8`)
-      .then(res => {this.setState({ cards: res.data })
+    setTimeout(()=>{ 
+      let audio = new Audio(backgroundAudio)
+      audio.volume = 0.2
+      audio.play()
+     }, 1000);
+    //Removed API, site is no longer available
+    // axios.get(`https://api.myjson.com/bins/ftfz8`)
+    //   .then(res => {this.setState({ cards: res.data })
+      this.setState({ cards: allCards })
       // Set Green Cards
-      let redCards = res.data.filter((card)=> card.element === 'red')
+      let redCards = allCards.filter((card)=> card.element === 'red')
       this.setState({ redCards: redCards})
 
       //Set Red Cards
-      let greenCards = res.data.filter((card)=> card.element === 'green')
+      let greenCards = allCards.filter((card)=> card.element === 'green')
       this.setState({ greenCards: greenCards})
 
-    })
+    // })
   }
 
   playerCards = (avatar)=>{
@@ -119,7 +124,7 @@ avatarCursor = () =>{
         <div className="App">
           <div className={this.avatarCursor()}>
             <Header />
-            <Route exact path="/" render={props => (
+            <Route exact path="/play" render={props => (
               <React.Fragment >
               <div className="transition main" style={this.mainView()}>
               <Main avatars={this.state.avatars} selectAvatar={this.selectAvatar}/>
