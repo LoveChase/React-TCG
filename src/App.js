@@ -27,11 +27,6 @@ class App extends Component {
 
   //Get Cards
   componentDidMount() {
-    setTimeout(()=>{ 
-      let audio = new Audio(backgroundAudio)
-      audio.volume = 0.2
-      audio.play()
-     }, 1000);
       this.setState({ cards: allCards })
       // Set Green Cards
       let redCards = allCards.filter((card)=> card.element === 'red')
@@ -78,6 +73,9 @@ class App extends Component {
     this.setState({avatar: avatar});
     this.playerCards(avatar);
     setTimeout(()=>{ 
+      let audio = new Audio(backgroundAudio)
+      audio.volume = 0.2
+      audio.play()
       $('.main').hide()
       //Draw initial hands
       for(let i = 0; i < 4; i++){

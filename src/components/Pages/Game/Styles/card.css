@@ -240,8 +240,11 @@ p {
     display: none;
 }
 
-.half-btn{
+body .half-btn{
     width:50%;
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-weight: 600;
 }
 
 .active-card{

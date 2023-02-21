@@ -7,7 +7,6 @@
         "type": "Monster",
         "power": "",
         "description": "",
-        "": "",
         "attack": 1,
         "defense":1,
         "canAttack": true
@@ -21,7 +20,6 @@
         "type": "Monster",
         "power": "",
         "description": "",
-        "": "",
         "attack": 1,
         "defense":2,
         "canAttack": true
@@ -49,7 +47,6 @@
         "type": "Monster",
         "power": "",
         "description": "",
-        "": "",
         "attack": 3,
         "defense":2,
         "canAttack": true
@@ -63,7 +60,6 @@
         "type": "Monster",
         "power": "",
         "description": "",
-        "": "",
         "attack": 1,
         "defense":5,
         "canAttack": true
@@ -76,8 +72,7 @@
         "img": "http://chaselove.tech/wp-content/uploads/2019/04/Gilzross.jpg",
         "type": "Monster",
         "power": "",
-        "description": "",
-        "": "",
+        "description": "", 
         "attack": 4,
         "defense":3,
         "canAttack": true
@@ -91,7 +86,6 @@
         "type": "Monster",
         "power": "",
         "description": "",
-        "": "",
         "attack": 1,
         "defense":1,
         "canAttack": true
@@ -105,7 +99,6 @@
         "type": "Monster",
         "power": "",
         "description": "",
-        "": "",
         "attack": 1,
         "defense":2,
         "canAttack": true
@@ -133,7 +126,6 @@
         "type": "Monster",
         "power": "",
         "description": "",
-        "": "",
         "attack": 3,
         "defense":2,
         "canAttack": true
@@ -147,7 +139,6 @@
         "type": "Monster",
         "power": "",
         "description": "",
-        "": "",
         "attack": 1,
         "defense":5,
         "canAttack": true
@@ -161,7 +152,6 @@
         "type": "Monster",
         "power": "",
         "description": "",
-        "": "",
         "attack": 4,
         "defense":3,
         "canAttack": true
@@ -175,7 +165,6 @@
         "type": "Monster",
         "power": "",
         "description": "",
-        "": "",
         "attack": 1,
         "defense":1,
         "canAttack": true
@@ -189,7 +178,6 @@
         "type": "Monster",
         "power": "",
         "description": "",
-        "": "",
         "attack": 1,
         "defense":2,
         "canAttack": true
@@ -203,7 +191,6 @@
         "type": "Monster",
         "power": "",
         "description": "",
-        "": "For the life of every plane, I will keep watch.",
         "attack": 2,
         "defense":3,
         "canAttack": true
@@ -217,7 +204,6 @@
         "type": "Monster",
         "power": "",
         "description": "",
-        "": "",
         "attack": 3,
         "defense":2,
         "canAttack": true
@@ -231,7 +217,6 @@
         "type": "Monster",
         "power": "",
         "description": "",
-        "": "",
         "attack": 1,
         "defense":5,
         "canAttack": true
@@ -245,7 +230,6 @@
         "type": "Monster",
         "power": "",
         "description": "",
-        "": "",
         "attack": 4,
         "defense":3,
         "canAttack": true
@@ -261,7 +245,6 @@
         "type": "Monster",
         "power": "",
         "description": "",
-        "": "",
         "attack": 3,
         "defense":1,
         "canAttack": true 
@@ -275,7 +258,6 @@
         "type": "Monster",
         "power": "",
         "description": "",
-        "": "",
         "attack": 2,
         "defense":2,
         "canAttack": true
@@ -289,7 +271,6 @@
         "type": "Monster",
         "power": "",
         "description": "",
-        "": "",
         "attack": 3,
         "defense":2,
         "canAttack": true
@@ -303,7 +284,6 @@
         "type": "Monster",
         "power": "",
         "description": "",
-        "": "",
         "attack": 1,
         "defense":1,
         "canAttack": true
@@ -317,7 +297,6 @@
         "type": "Monster",
         "power": "",
         "description": "",
-        "": "",
         "attack": 2,
         "defense":1,
         "canAttack": true
@@ -331,7 +310,6 @@
         "type": "Monster",
         "power": "",
         "description": "",
-        "": "",
         "attack": 4,
         "defense":2,
         "canAttack": true
@@ -345,7 +323,6 @@
         "type": "Monster",
         "power": "",
         "description": "",
-        "": "",
         "attack": 2,
         "defense":2,
         "canAttack": true 
@@ -359,7 +336,6 @@
         "type": "Monster",
         "power": "",
         "description": "",
-        "": "",
         "attack": 3,
         "defense":1,
         "canAttack": true 
@@ -373,7 +349,6 @@
         "type": "Monster",
         "power": "",
         "description": "",
-        "": "",
         "attack": 2,
         "defense":2,
         "canAttack": true
@@ -387,7 +362,6 @@
         "type": "Monster",
         "power": "",
         "description": "",
-        "": "",
         "attack": 3,
         "defense":2,
         "canAttack": true
@@ -401,7 +375,6 @@
         "type": "Monster",
         "power": "",
         "description": "",
-        "": "",
         "attack": 1,
         "defense":1,
         "canAttack": true
@@ -415,7 +388,6 @@
         "type": "Monster",
         "power": "",
         "description": "",
-        "": "",
         "attack": 2,
         "defense":1,
         "canAttack": true
@@ -429,7 +401,6 @@
         "type": "Monster",
         "power": "",
         "description": "",
-        "": "",
         "attack": 4,
         "defense":2,
         "canAttack": true
@@ -443,7 +414,6 @@
         "type": "Monster",
         "power": "",
         "description": "",
-        "": "",
         "attack": 2,
         "defense":2,
         "canAttack": true 
@@ -457,7 +427,6 @@
         "type": "Monster",
         "power": "",
         "description": "",
-        "": "",
         "attack": 3,
         "defense":1,
         "canAttack": true 
@@ -471,7 +440,6 @@
         "type": "Monster",
         "power": "",
         "description": "",
-        "": "",
         "attack": 2,
         "defense":2,
         "canAttack": true
@@ -485,7 +453,6 @@
         "type": "Monster",
         "power": "",
         "description": "",
-        "": "",
         "attack": 3,
         "defense":2,
         "canAttack": true
@@ -499,7 +466,6 @@
         "type": "Monster",
         "power": "",
         "description": "",
-        "": "",
         "attack": 1,
         "defense":1,
         "canAttack": true
@@ -513,7 +479,6 @@
         "type": "Monster",
         "power": "",
         "description": "",
-        "": "",
         "attack": 2,
         "defense":1,
         "canAttack": true
@@ -527,7 +492,6 @@
         "type": "Monster",
         "power": "",
         "description": "",
-        "": "",
         "attack": 4,
         "defense":2,
         "canAttack": true
@@ -541,7 +505,6 @@
         "type": "Monster",
         "power": "",
         "description": "",
-        "": "",
         "attack": 2,
         "defense":2,
         "canAttack": true 
