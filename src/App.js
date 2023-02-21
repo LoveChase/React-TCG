@@ -4,7 +4,6 @@ import Header from './components/Layout/Header';
 import Main from './components/Pages/Main/Main';
 import Game from './components/Pages/Game/Game';
 import $ from 'jquery';
-import axios from 'axios';
 import './App.css';
 import backgroundAudio from "./audio/Background.mp3"
 import redAudio from "./audio/FireAvatar.mp3"
@@ -33,9 +32,6 @@ class App extends Component {
       audio.volume = 0.2
       audio.play()
      }, 1000);
-    //Removed API, site is no longer available
-    // axios.get(`https://api.myjson.com/bins/ftfz8`)
-    //   .then(res => {this.setState({ cards: res.data })
       this.setState({ cards: allCards })
       // Set Green Cards
       let redCards = allCards.filter((card)=> card.element === 'red')
