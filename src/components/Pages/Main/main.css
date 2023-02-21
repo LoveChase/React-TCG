@@ -41,7 +41,6 @@
 }
 
 .inside-right {
-  -webkit-transform: skewx(-45deg);
   transform: skewx(45deg);
   width: 100%;
   background: url(https://img3.goodfon.com/wallpaper/big/c/16/peter-mohrbacher-magic-the.jpg);
